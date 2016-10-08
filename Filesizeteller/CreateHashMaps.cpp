@@ -95,6 +95,7 @@ void translate(const char* filename,std::string mapname,int endparam,int startvp
 	outfile << "" << endl;
 	outfile << "static std::unordered_map<uint64_t, uint64_t>" << " " << mapname << " = {" << endl;
 	outfile << "" << endl;
+	outfile << "//     " << startvparam << "                  " << endparam << endl;
 	if (!addi)
 	{
 		for (auto& pair : base)
@@ -169,7 +170,7 @@ int main()
 	std::string lll = "Hashtablemaker : (Build " + ll + " ) [Created by Force67]";
 	SetConsoleTitleA(lll.c_str());
 	string lol, lol2;
-	print("Starting hash translator! < generating from 331 to 791 rofl >");
+	print("Starting hash translator! < able to generate from 331 to 877 rofl >");
 	print("Enter filename !");
 	cin >> lol;
 	print("Please enter the startvers : ");
