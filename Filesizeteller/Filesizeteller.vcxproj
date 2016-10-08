@@ -143,9 +143,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="331to350.h" />
     <ClInclude Include="350to372.h" />
     <ClInclude Include="372to393.h" />
@@ -156,11 +153,12 @@
     <ClInclude Include="617to678.h" />
     <ClInclude Include="678to757.h" />
     <ClInclude Include="757to791.h" />
+    <ClInclude Include="791to877.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Filesizeteller.cpp" />
+    <ClCompile Include="CreateHashMaps.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
